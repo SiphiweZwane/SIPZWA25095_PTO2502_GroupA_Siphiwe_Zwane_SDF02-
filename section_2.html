@@ -27,6 +27,28 @@
             border: 1px solid #ccc;
             box-sizing: border-box;
         }
+
+
+        img, p {
+            display:inline-block;
+            vertical-align:middle; /* Aligns text and image vertically */
+            
+        }
+
+        img {
+            width: 500px;
+            height: auto;
+            margin-right: 100px;
+            
+        }
+
+        .container2 {
+            display: flex;
+            justify-content: flex-end;}
+
+        .text-message{
+            height: 45px;
+            }
     </style>
 
 
@@ -36,9 +58,9 @@
     
 
     <div class="container">
-        <div class="column">
-        
-        </div>
+        <div class="column"></div>
+
+
         <div class="column2">
             <h1>Catfolio</h1>
             <p>
@@ -46,9 +68,21 @@
                 <span class="inline-block"><b>Date</b></span>
                 <span class="inline-block"><b>Description</b></span>
                 <span class="inline-block"><b>Thumbnail</b></span>
+               <p>Purrfect Landing Page January 2024  A delightful landing page for a luxury cat condo. <img src="1.png"></p>
+               <p>Kitty Commerce      February 2024 An online store selling the fanciest catnip toys.<img src="2.png"></p>
+               <p>CatChat Social        June 2024     A social media site for cats to meow and hiss!<img src="3.png"></p>
             </p>
+            
+            <h2>Contact Me</h2>
+            <p>Name: <input></input> Email:<input></input> Message:<input class="text-message"></input> <button>Submit</button></p><br>
+            <p>&#9426 2024 CodeSpace Cat. All rights reserved.</p>
+            
         </div>
+
+        
     </div>
+
+        
 
 </body>
 </html>
